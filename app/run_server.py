@@ -6,6 +6,7 @@
 
 # import the necessary packages
 import dill
+import numpy as np
 import pandas as pd
 import os
 dill._dill._reverse_typemap['ClassType'] = type
